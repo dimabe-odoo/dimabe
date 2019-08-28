@@ -1,0 +1,4 @@
+[submodule "leonardodimabe/RutValidador-Odoo"]
+	path = leonardodimabe/RutValidador-Odoo
+	url = git@github.com:leonardodimabe/RutValidador-Odoo.git
+	branch = master
