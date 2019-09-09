@@ -2,3 +2,8 @@
 	path = leonardodimabe/RutValidador-Odoo
 	url = git@github.com:leonardodimabe/RutValidador-Odoo.git
 	branch = master
+
+[submodule "KonosCL/addons-konos"]
+	path = KonosCL/addons-konos
+	url = git@github.com:KonosCL/addons-konos.git
+	branch = 12.0
