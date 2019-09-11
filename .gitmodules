@@ -22,3 +22,8 @@
 	path = martinblech/xmltodict
 	url = git@github.com:martinblech/xmltodict.git
 	branch = master
+
+[submodule "dimabe-odoo/facturacion"]
+	path = dimabe-odoo/facturacion
+	url = git@github.com:dimabe-odoo/facturacion.git
+	branch = master
