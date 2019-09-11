@@ -5,4 +5,4 @@ xlsxwriter
 pillow
 xmltodict
 dicttoxml
-
+pdf417gen
