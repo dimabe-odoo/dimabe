@@ -7,3 +7,8 @@
 	path = KonosCL/addons-konos
 	url = git@github.com:KonosCL/addons-konos.git
 	branch = 12.0
+
+[submodule "dimabe-odoo/Dimabe-FE"]
+	path = dimabe-odoo/Dimabe-FE
+	url = git@github.com:dimabe-odoo/Dimabe-FE.git
+	branch = master
