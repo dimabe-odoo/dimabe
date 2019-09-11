@@ -17,3 +17,8 @@
 	path = dimabe-odoo/Dimabe-FE
 	url = git@github.com:dimabe-odoo/Dimabe-FE.git
 	branch = master
+
+[submodule "martinblech/xmltodict"]
+	path = martinblech/xmltodict
+	url = git@github.com:martinblech/xmltodict.git
+	branch = master
