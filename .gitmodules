@@ -12,3 +12,8 @@
 	path = dimabe-odoo/FINIQUITO
 	url = git@github.com:dimabe-odoo/FINIQUITO.git
 	branch = master
+
+[submodule "dimabe-odoo/Dimabe-FE"]
+	path = dimabe-odoo/Dimabe-FE
+	url = git@github.com:dimabe-odoo/Dimabe-FE.git
+	branch = master
