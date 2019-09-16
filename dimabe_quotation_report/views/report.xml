@@ -10,16 +10,10 @@
             <xpath expr="//div[@class='header']" position="replace">
                 <div class="header" style="font-family: 'Roboto', sans-serif;
                                         font-weight: bold;">
-                    <img t-if="company.logo"
-                        t-att-src="'data:image/png;base64,%s' % company.logo"
-                        style="height: 100px;
-                                width: 100px;"/>
-
-                    <div style="margin-top: 15px;
-                                color: blue;
-                                font-size: 12px;"
-                        t-esc="company.name.encode('ascii', 'ignore').upper()"/>
-                    </div>
+                    <h1>
+                        Header Modificado
+                    </h1>
+                </div>
             </xpath>
         </template>
     </data>
