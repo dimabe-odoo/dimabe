@@ -7,13 +7,20 @@
             name="dimabe_quotation_report.dimabe_quotation_custom_report"
         />
         <template id="dimabe_quotation_custom_report">
-            <t t-call="web.html_container">
-                <t t-call="web.external_layout">
-                    <div class="header">
-                        <h1>Cabecera personalizada del informe</h1>
+            <xpath expr="//div[@class='header']" position="replace">
+                <div class="header" style="font-family: 'Roboto', sans-serif;
+                                        font-weight: bold;">
+                    <img t-if="company.logo"
+                        t-att-src="'data:image/png;base64,%s' % company.logo"
+                        style="height: 100px;
+                                width: 100px;"/>
+
+                    <div style="margin-top: 15px;
+                                color: blue;
+                                font-size: 12px;"
+                        t-esc="company.name.encode('ascii', 'ignore').upper()"/>
                     </div>
-                </t>
-            </t>
+            </xpath>
         </template>
     </data>
 </odoo>
