@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <report id="dimabe_quotation_custom"
+            string="Presupuesto Dimabe"
+            model="sale.order"
+            report_type="qweb-pdf"
+            name="dimabe_quotation_report.dimabe_quotation_custom_report"
+        />
+        <template id="dimabe_quotation_custom_report">
+            <t t-call="report.html_container">
+                <t t-call="report.external_layout">
+                    <div class="header">
+                        <h1>Cabecera personalizada del informe</h1>
+                    </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
