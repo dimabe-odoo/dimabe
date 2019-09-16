@@ -6,7 +6,7 @@
             report_type="qweb-pdf"
             name="dimabe_quotation_report.dimabe_quotation_custom_report"
         />
-        <template id="dimabe_quotation_custom_report">
+        <template id="dimabe_quotation_custom_report" inherit_id="web.external_layout_clean">
             <xpath expr="//div[@class='header']" position="replace">
                 <div class="header" style="font-family: 'Roboto', sans-serif;
                                         font-weight: bold;">
