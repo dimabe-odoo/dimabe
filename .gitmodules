@@ -27,3 +27,18 @@
 	path = dimabe-odoo/facturacion
 	url = git@github.com:dimabe-odoo/facturacion.git
 	branch = master
+
+[submodule "KonosCL/webservices_generic"]
+	path = KonosCL/webservices_generic
+	url = git@github.com:KonosCL/webservices_generic.git
+	branch = 12.0
+
+[submodule "dimabe-odoo/moneda"]
+	path = dimabe-odoo/moneda
+	url = git@github.com:dimabe-odoo/moneda.git
+	branch = master
+
+[submodule "dimabe-odoo/moneda1"]
+	path = dimabe-odoo/moneda1
+	url = git@github.com:dimabe-odoo/moneda1.git
+	branch = master
