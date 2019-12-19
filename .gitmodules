@@ -22,8 +22,3 @@
 	path = dimabe-odoo/moneda1
 	url = git@github.com:dimabe-odoo/moneda1.git
 	branch = master
-
-[submodule "dimabe-odoo/factura_exportacion"]
-	path = dimabe-odoo/factura_exportacion
-	url = git@github.com:dimabe-odoo/factura_exportacion.git
-	branch = master
