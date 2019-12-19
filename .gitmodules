@@ -17,8 +17,3 @@
 	path = dimabe-odoo/moneda
 	url = git@github.com:dimabe-odoo/moneda.git
 	branch = master
-
-[submodule "dimabe-odoo/moneda1"]
-	path = dimabe-odoo/moneda1
-	url = git@github.com:dimabe-odoo/moneda1.git
-	branch = master
